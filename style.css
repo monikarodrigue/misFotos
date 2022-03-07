@@ -1,20 +1,23 @@
-body {
+body{
     text-align: center;
-    background-color: #f0e8c5;
-
-  }
-
-  div {
+}
+#principal{
+    background-color: aqua;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+#myCarousel img{
+    margin-top: 30px;
+ height: 300px;
+ margin-top: 35 px;
+}
+#myCarousel{
+    background-color: blue;
+}
+.carousel-inner p{
     margin-top: 15px;
-  }
-
-  .image-section {
-    display: flex;
-    justify-content: center;
-  }
-
-  .section-style {
-    margin-right: 25px;
-    margin-left: 25px;
-    background-color: white;
-  }
+    color: deeppink;
+    font-size: 20px;
+}
